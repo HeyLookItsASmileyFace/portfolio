@@ -1,0 +1,509 @@
+body{
+  background-color: whitesmoke;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* General container */
+.portfolio-container {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: "Joan", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 80px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+
+#b1{
+  transition: 0.2s;
+}
+#b1:hover{
+  font-size: 38px;
+  }
+
+#b2{
+  transition: 0.2s;
+  }
+#b2:hover{
+  font-size: 38px;
+  }
+
+#b3{
+    transition: 0.2s;
+  }
+#b3:hover{
+  font-size: 38px;
+}
+
+  /* Introduction section */
+
+  .intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    padding: 20px;
+  }
+
+  .profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+  
+  .intro-info1 {
+    position: absolute;
+    left: 750px;
+    top: 140px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  .intro-info2 {
+    margin-left: 20px;
+    text-align: left;
+    font-family: "Aleo", serif;
+    font-weight:bolder;
+    font-style: normal;
+    color:black;
+  }
+  
+  .about-btn {
+    position: absolute;
+    left: 770px;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 20px;
+    width: 180px;
+    box-shadow: 2px 2px;
+    font-family: "Gowun Batang", serif;
+    font-weight:bold;
+    font-style: normal;
+    color: black;
+  }
+
+  .about-btn a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .about-btn:hover {
+    letter-spacing: 2px;
+    font-size: 27px;
+  }
+  
+  /* About Me Section */
+
+  .about-section {
+    padding: 50px 20px;
+    text-align: left;
+  }
+
+  .about-section h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 300px;
+    font-family: "Joan", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+  }
+
+  .about-section p {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 700px;
+    margin-left: 120px;
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .about-image-container {
+    position: absolute;
+    margin-left: 850px;
+    top: 1000px;
+  }
+  
+  .about-image {
+    width: 400px;
+    height: auto;
+    border-radius: 25px;
+  }
+  
+  /* Services Section */
+
+  .services-section {
+    padding: 50px 20px;
+  }
+  
+  .services-section h2 {
+    font-size: 60px;
+    margin-bottom: 80px;
+    font-family: "Joan", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+  }
+
+  .badge1{
+    width:100px;
+    position: relative;
+    top: 20px;
+  }
+  
+  .badge2{
+    width:120px;
+    position: relative;
+    top: 20px;
+  }
+
+  .badge3{
+    width:110px;
+    position: relative;
+    top: 20px;
+  }
+
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .networking {
+    background-color: #2f2f2f;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px black;
+    width: 300px;
+    color:white;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid #aeaeae;
+    height: 500px;
+    transition: 0.2s;
+  }
+
+  .networking:hover{
+    margin-top: -30px;
+  }
+
+  .networking h3{
+    font-family: "Joan", serif;
+    font-size: 30px;
+  }
+
+  .networking p{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .uiux {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px black;
+    width: 300px;
+    border-radius: 50px;
+    border: 5px solid black;
+    height: 500px;
+    transition: 0.2s;
+  }
+
+  .uiux:hover{
+    margin-top: -30px;
+  }
+
+  .uiux h3{
+    font-family: "Joan", serif;
+    font-size: 30px;
+  }
+
+  .uiux p{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .webapp {
+    background-color: #2f2f2f;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px black;
+    width: 300px;
+    color:white;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid #aeaeae;
+    height: 500px;
+    transition: 0.2s;
+  }
+
+  .webapp:hover{
+    margin-top: -30px;
+  }
+
+  .webapp h3{
+    font-family: "Joan", serif;
+    font-size: 30px;
+  }
+
+  .webapp p{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* Projects Section */
+
+  .projects-section {
+    padding: 50px 20px;
+  }
+
+  .projects-section h2 {
+    font-size: 60px;
+    margin-bottom: 80px;
+    font-family: "Joan", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+  }
+
+  .cisco{
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: -120px;
+  }
+
+  .phone{
+    position: absolute;
+    left: 100px;
+    width: 250px;
+    margin-top: -35px;
+  }
+
+  .laptop{
+    position: absolute;
+    left: 20px;
+    width: 350px;
+    margin-top: -100px;
+  }
+
+  .proj1 {
+    margin-bottom: 20px;
+    margin-left: 350px;
+    margin-right: 100px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .proj1 h3{
+    font-family: "Joan", serif;
+    font-size: 30px;
+  }
+
+ .proj1 p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+  .proj2 {
+    margin-bottom: 20px;
+    margin-left: 350px;
+    margin-right: 100px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .proj2 h3{
+    font-family: "Joan", serif;
+    font-size: 30px;
+  }
+
+ .proj2 p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+  /* Contact Section */
+
+  .discord{
+    position: absolute;
+    width: 100px;
+    left: 150px;
+    margin-top: 200px;
+  }
+
+  .twitter{
+    position: absolute;
+    width: 100px;
+    left: 150px;
+    margin-top: 310px;
+  }
+
+  .google{
+    position: absolute;
+    width: 100px;
+    left: 150px;
+    margin-top: 420px;
+  }
+
+  .contact-section {
+    padding: 50px 20px;
+  }
+
+  .info1{
+    margin-top: 220px;
+    position: absolute;
+    left: -70px;
+    margin-right: 600px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .info2{
+    margin-top: 350px;
+    position: absolute;
+    left: -70px;
+    margin-right: 600px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .info3{
+    margin-top: 440px;
+    position: absolute;
+    left: -70px;
+    margin-right: 600px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .contact-section h2 {
+    font-size: 60px;
+    position: absolute;
+    left: 280px;
+    margin-bottom: -80px;
+    font-family: "Joan", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+  }
+
+  .contact-info {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: -20px;
+    left: 350px;
+  }
+  
+.contact-form-box{
+  border: 5px solid black;
+  border-radius: 50px;
+  position: absolute;
+  left: 800px;
+  margin-top: 80px;
+  padding: 20px;
+  box-shadow: 0 4px 10px black;
+  width: 300px;
+  height: 450px;
+}
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .contact-form input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #aeaeae;
+    background-color: #2f2f2f;
+    color: white;
+  }
+
+  .contact-form textarea{
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #aeaeae;
+    background-color: #2f2f2f;
+    color: white;
+    width: auto;
+    height: 200px;
+  }
+
+  .contact-form button {
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: 70px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    left: 100px;
+  }
+
+  .blank{
+    color: white;
+    bottom: -3200px;
+    font-size: 60px;
+    position: absolute;
+    font-family: "Joan", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+  }
